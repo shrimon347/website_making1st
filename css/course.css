@@ -1,0 +1,264 @@
+/* top bar section style */
+.back{
+    background-color: #56AB2F;
+}
+.style{
+    position: relative;
+    left: 45px;
+}
+
+.link_style{
+    position: relative;
+    left: 430px;
+}
+
+.link_style a{
+  text-decoration: none;
+    color: white;   
+}
+.login{
+    border-right: 2px solid green;
+    
+}
+/* navbar style */
+.text{
+    font-family: sans-serif !important;
+    color: #000 !important;
+    padding: 0px 15px !important;
+    font-weight: 600;
+}
+.text a:hover{
+    color: #56AB2F !important;
+    transition:.3s;
+}
+.navbar-toggler {
+	padding: 1px 5px;
+	font-size: 18px;
+	line-height: 0.3;
+	background: #56AB2F;
+    outline: none;
+    border: none;
+}
+/* bg img style */
+.back2{
+    background-image: url(../imge/back3.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+.back2::before{
+    content: '';
+	position: absolute;
+	left: 0;
+	top: 0;
+	height: 100%;
+	width: 100%;
+	background-color: black;
+	opacity: .5;
+}
+.text-center{
+    position: relative;
+}
+.breadcrumb-item a{
+    text-decoration: none;
+    color: #fff;
+    position: relative;
+}
+.txtcolor{
+    color: #56AB2F !important;
+}
+#text2{
+   margin-left: 500px;
+   margin-bottom: 100px;
+}
+
+/* course header section */
+.course{
+    position: relative;
+}
+h2::before{
+    content: "";
+    height: 2px;
+    width:66px;
+    background-color:#56AB2F;
+    top: 8%;
+    left: 4px;
+    position: absolute;
+}
+/* boder none for select */
+.form-select:focus{
+    box-shadow: none !important;
+}
+.form-select{
+    border: 1px solid #56AB2F!important;
+}
+.form-select:hover{
+    outline: none;
+    cursor: pointer;
+}
+.btn2{
+    border: 1px solid #56AB2F!important;
+    outline: none;
+    padding: 6px 8px;
+    margin-left: -10px;
+}
+
+/* card title */
+.card-title span{
+    color: #56AB2F;
+}
+/* card paragraph border */
+.card_border{
+    border: 1px solid #56AB2F;
+}
+.boder_bottom{
+    position: relative;
+}
+.boder_bottom::after{
+    content: "";
+    height: 1px;
+    width:150px;
+    background-color: silver;
+    top: 160%;
+    left: 100px;
+    position: absolute;
+}
+/*card  button section */
+.div {
+    position: relative;
+    top: 20px;
+    border-top: 1px solid silver;
+}
+.btn{
+    background-color: #56AB2F;
+    outline: none;
+    font-size: 13px;
+    border-radius: 0 !important;
+    padding: 11.5px 10px;
+}
+
+/* subcribe section style */
+.back3{
+    background-color: #56AB2F;
+}
+.margin_left{
+    margin-left: 360px !important;
+}
+.width_label{
+    width: 300px;
+    height: 40px;
+    padding: 7px;
+    background-color: #56AB2F;
+    outline: none;
+    border: 1px solid #fff;
+    color: #fff;
+}
+
+.btn3{
+    width:50px;
+    height: 40px;
+    border: 4px solid greenyellow;
+}
+
+
+/* footer section style */
+
+.back4{
+    background-color: #1E1D1D;
+}
+.para2{
+    text-align: justify;
+    font-size: small;
+}
+.display a{
+    display: block;
+    padding: 7px;
+}
+.text_white{
+    text-align: justify;
+    font-weight: 500;
+}
+
+.icon_color{
+    color: #56AB2F;
+}
+.container_margin{
+    border-bottom: 1px solid #56AB2F;
+}
+.socials i{
+    border: 1px solid #fff !important;
+    border-radius: 50% !important;
+    padding: 10px;
+    margin-left: 5px;
+}
+.icon_radius{
+    width: 40px !important;
+    text-align: center;
+}
+
+.socials i:hover{
+    color: #56AB2F;
+}
+
+/* media quirey */
+@media only screen and (max-width: 480px) {
+	
+    /* topbar media */
+    .back.row{
+        max-width: 100%;
+    }
+    .style span{
+        display: block !important;
+        margin-left: -80px;
+    }
+    
+    .link_style {
+        position: relative;
+        left: 0;
+    }
+    .link_style a{
+        border: 1px ssolid white !important;
+    }
+
+    /* navbar media */
+    .navbar-nav.ms-auto {
+        text-align: center;
+        background: #56AB2F;
+    }
+    .navbar-nav.ms-auto li a{
+        color: #fff !important;
+    }
+    .navbar-nav.ms-auto li a:hover{
+        color: #272727 !important;
+        transition: .3s;
+    }
+    /* bg img section of all course */
+    #text2{
+        margin-left: 120px;
+    }
+
+    /* card section */
+    .boder_bottom::after{
+        margin-left: -8px;
+    }
+
+    /* subcribe section */
+    .margin_left{
+        margin-left: 10px !important;
+    }
+    .width_label{
+        width: 130px;
+        height: 40px;
+        padding: 7px;
+        background-color: #56AB2F;
+        outline: none;
+        border: 1px solid #fff;
+        color: #fff;
+    }
+
+    /* footer img section */
+    .footer_img img{
+        height: auto !important;
+        width: 100% !important;
+    }
+}
